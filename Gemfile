@@ -12,7 +12,7 @@ gem "test-unit"
 platforms :mri, :mswin, :mingw, :x64_mingw do
   gem "ffi"
   gem "parser"
-  gem "ruby_memcheck"
+  gem "ruby_memcheck", ">= 3.0.1"
   gem "ruby_parser"
 end  
 
